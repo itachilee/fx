@@ -46,19 +46,19 @@
                               <Label text="City" GridPane.rowIndex="3" />
                               <Label text="Birthday" GridPane.rowIndex="5" />
                               <Label fx:id="firstNameLabel" text="Label" GridPane.columnIndex="1" />
-                              <Label fx:id="firstNameLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label fx:id="lastNameLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label fx:id="streetLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label fx:id="cityLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label fx:id="birthdayLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                               <Label text="Postal Code" GridPane.rowIndex="4" />
-                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label fx:id="postalCodeLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                            </children>
                         </GridPane>
                      </items>
                   </SplitPane>
                   <Button layoutX="209.0" layoutY="331.0" mnemonicParsing="false" text="New.." />
                   <Button layoutX="294.0" layoutY="331.0" mnemonicParsing="false" text="Edit" />
-                  <Button layoutX="401.0" layoutY="331.0" mnemonicParsing="false" text="Delete" />
+                  <Button layoutX="401.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                </children>
             </AnchorPane>
         </items>

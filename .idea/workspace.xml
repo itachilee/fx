@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3156912a-51e2-4c15-a26b-2ced02c797d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fx/makery/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fx/makery/util/DateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/RootLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/RootLayout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/view/PersonOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/view/PersonOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/makery/PersonOverview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fx/makery/PersonOverview.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       <workItem from="1589849908084" duration="2157000" />
       <workItem from="1589853534836" duration="882000" />
       <workItem from="1589877861424" duration="19000" />
-      <workItem from="1590474268164" duration="6298000" />
+      <workItem from="1590474268164" duration="7509000" />
     </task>
     <servers />
   </component>
@@ -150,5 +149,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
+          <line>63</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
