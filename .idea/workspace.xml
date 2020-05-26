@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3156912a-51e2-4c15-a26b-2ced02c797d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fx/makery/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fx/makery/controller/PersonEditView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/view/PersonEditDialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/controller/PersonOverview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/RootLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/controller/RootLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fx/makery/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/makery/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/view/PersonOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/view/PersonOverview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fx/makery/PersonOverview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fx/makery/PersonOverview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/view/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/view/RootLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/makery/PersonOverview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/makery/RootLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/makery/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fx/makery/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/view/PersonOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/view/PersonOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/view/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/view/RootLayout.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +23,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -99,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="RootLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fx.makery.RootLayout" />
+      <option name="MAIN_CLASS_NAME" value="fx.makery.controller.RootLayout" />
       <module name="fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fx.makery.*" />
+          <option name="PATTERN" value="fx.makery.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +155,7 @@
       <workItem from="1589849908084" duration="2157000" />
       <workItem from="1589853534836" duration="882000" />
       <workItem from="1589877861424" duration="19000" />
-      <workItem from="1590474268164" duration="7509000" />
+      <workItem from="1590474268164" duration="10759000" />
     </task>
     <servers />
   </component>
@@ -154,22 +177,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/controller/PersonOverview.java</url>
+          <line>66</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fx/makery/PersonOverview.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

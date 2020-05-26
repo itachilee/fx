@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.makery.PersonOverview">
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.makery.controller.PersonOverview">
    <children>
       <SplitPane dividerPositions="0.29797979797979796" layoutX="62.0" layoutY="22.0" prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -24,7 +24,7 @@
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
                   <Label layoutX="14.0" layoutY="14.0" text="Person Details" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
-                  <SplitPane layoutX="57.0" layoutY="103.0" prefHeight="160.0" prefWidth="200.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="30.0">
+                  <SplitPane layoutX="57.0" layoutY="103.0" maxHeight="-Infinity" prefHeight="500.0" prefWidth="200.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="30.0">
                      <items>
                         <GridPane minHeight="-Infinity">
                           <columnConstraints>
@@ -32,12 +32,12 @@
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                           </columnConstraints>
                           <rowConstraints>
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                               <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
-                              <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                              <RowConstraints maxHeight="36.0" minHeight="0.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="64.0" minHeight="0.0" prefHeight="28.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
                               <Label text="First Name" />
@@ -56,9 +56,9 @@
                         </GridPane>
                      </items>
                   </SplitPane>
-                  <Button layoutX="209.0" layoutY="331.0" mnemonicParsing="false" text="New.." />
-                  <Button layoutX="294.0" layoutY="331.0" mnemonicParsing="false" text="Edit" />
-                  <Button layoutX="401.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
+                  <Button layoutX="187.0" layoutY="583.0" mnemonicParsing="false" onAction="#handleNewPerson" text="New.." />
+                  <Button layoutX="278.0" layoutY="583.0" mnemonicParsing="false" onAction="#handleEditPerson" text="Edit" />
+                  <Button layoutX="362.0" layoutY="583.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                </children>
             </AnchorPane>
         </items>
