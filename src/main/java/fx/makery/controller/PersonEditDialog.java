@@ -3,8 +3,6 @@ package fx.makery.controller;
 import fx.makery.model.Person;
 import fx.makery.util.DateUtil;
 import javafx.fxml.FXML;
-
-import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TextField;
@@ -16,7 +14,7 @@ import javafx.stage.Stage;
  *
  * @author Marco Jakob
  */
-public class PersonEditView {
+public class PersonEditDialog {
 
     @FXML
     private TextField firstNameField;
@@ -155,9 +153,7 @@ public class PersonEditView {
             alert.setTitle("Invalid Fields");
             alert.setHeaderText("Please correct invalid fields");
             alert.setContentText(errorMessage);
-
             alert.showAndWait();
-
             return false;
         }
     }

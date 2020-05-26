@@ -123,7 +123,7 @@ public class RootLayout extends Application {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(RootLayout.class.getResource("/fxml/view/PersonEditDialog.fxml"));
-            AnchorPane page = (AnchorPane) loader.load();
+            AnchorPane page = loader.load();
 
             // Create the dialog Stage.
             Stage dialogStage = new Stage();
@@ -134,7 +134,7 @@ public class RootLayout extends Application {
             dialogStage.setScene(scene);
 
             // Set the person into the controller.
-            PersonEditView controller = loader.getController();
+            PersonEditDialog controller = loader.getController();
             controller.setDialogStage(dialogStage);
             controller.setPerson(person);
 
